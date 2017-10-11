@@ -5177,6 +5177,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;cny70.h: 56: void go_back(void);
 [; ;motor.h: 11: void motor_forward(void);
 [; ;motor.h: 12: void motor_Backforward(void);
+[; ;motor.h: 13: void motor_forward1(void);
+[; ;motor.h: 14: void motor_forward2(void);
+[; ;motor.h: 15: void motor_Backforward1(void);
+[; ;motor.h: 16: void motor_Backforward2(void);
 "29 robot.c
 [p x VREGEN=OFF ]
 "30
@@ -5312,9 +5316,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;robot.c: 79: extern unsigned char contador2;
 [; ;robot.c: 80: extern unsigned char comando[40];
 [; ;robot.c: 81: extern unsigned char TramaTablet[20];
-[v F5691 `(v ~T0 @X0 1 tf ]
+[v F5699 `(v ~T0 @X0 1 tf ]
 "85
-[v _TMRO_USART `IF5691 ~T0 @X0 1 e ]
+[v _TMRO_USART `IF5699 ~T0 @X0 1 e ]
 {
 [; ;robot.c: 85: void interrupt TMRO_USART(void) {
 [e :U _TMRO_USART ]

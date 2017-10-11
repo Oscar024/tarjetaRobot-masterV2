@@ -4821,6 +4821,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic18.h: 151: extern __nonreentrant void _delay3(unsigned char);
 [; ;motor.h: 11: void motor_forward(void);
 [; ;motor.h: 12: void motor_Backforward(void);
+[; ;motor.h: 13: void motor_forward1(void);
+[; ;motor.h: 14: void motor_forward2(void);
+[; ;motor.h: 15: void motor_Backforward1(void);
+[; ;motor.h: 16: void motor_Backforward2(void);
 "11 motor.c
 [v _motor_forward1 `(v ~T0 @X0 1 ef ]
 "12

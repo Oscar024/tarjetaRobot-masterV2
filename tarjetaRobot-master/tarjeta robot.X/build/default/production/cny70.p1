@@ -19,8 +19,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _left `(v ~T0 @X0 0 ef ]
 "53
 [v _right `(v ~T0 @X0 0 ef ]
-"56
-[v _go_back `(v ~T0 @X0 0 ef ]
 "102 cny70.c
 [v _motor_forward1 `(i ~T0 @X0 0 ef ]
 "103
@@ -5018,30 +5016,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 }
 [; ;cny70.c: 69: }
 [e $U 611  ]
-"71
-[e :U 610 ]
-[; ;cny70.c: 71: else if(PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB0 == 1 && PORTBbits.RB4 == 1 && PORTBbits.RB1 == 1){
-[e $ ! && && && && == -> . . _PORTBbits 0 2 `i -> 1 `i == -> . . _PORTBbits 0 3 `i -> 1 `i == -> . . _PORTBbits 0 0 `i -> 1 `i == -> . . _PORTBbits 0 4 `i -> 1 `i == -> . . _PORTBbits 0 1 `i -> 1 `i 612  ]
-{
-[; ;cny70.c: 72: go_back();
-"72
-[e ( _go_back ..  ]
-[; ;cny70.c: 73: return -10;
-"73
-[e ) -U -> 10 `i ]
-[e $UE 593  ]
-"74
-}
-[; ;cny70.c: 74: }
-[e $U 613  ]
 "76
-[e :U 612 ]
+[e :U 610 ]
 [; ;cny70.c: 76: else
 [; ;cny70.c: 77: return 0;
 "77
 [e ) -> 0 `i ]
 [e $UE 593  ]
-[e :U 613 ]
 [e :U 611 ]
 [e :U 609 ]
 [e :U 607 ]
@@ -5077,10 +5058,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
 [; ;cny70.c: 106: return;
 "106
-[e $UE 614  ]
+[e $UE 612  ]
 [; ;cny70.c: 107: }
 "107
-[e :UE 614 ]
+[e :UE 612 ]
 }
 "109
 [v _left `(v ~T0 @X0 1 ef ]
@@ -5104,10 +5085,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
 [; ;cny70.c: 115: return;
 "115
-[e $UE 615  ]
+[e $UE 613  ]
 [; ;cny70.c: 116: }
 "116
-[e :UE 615 ]
+[e :UE 613 ]
 }
 "118
 [v _go_straight `(v ~T0 @X0 1 ef ]
@@ -5128,10 +5109,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
 [; ;cny70.c: 123: return;
 "123
-[e $UE 616  ]
+[e $UE 614  ]
 [; ;cny70.c: 124: }
 "124
-[e :UE 616 ]
+[e :UE 614 ]
 }
 "126
 [v _go_back `(v ~T0 @X0 1 ef ]
@@ -5152,8 +5133,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
 [; ;cny70.c: 131: return;
 "131
-[e $UE 617  ]
+[e $UE 615  ]
 [; ;cny70.c: 132: }
 "132
-[e :UE 617 ]
+[e :UE 615 ]
 }

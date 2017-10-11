@@ -6305,6 +6305,10 @@ extern __nonreentrant void _delay3(unsigned char);
 # 11 "motor.h"
 void motor_forward(void);
 void motor_Backforward(void);
+void motor_forward1(void);
+void motor_forward2(void);
+void motor_Backforward1(void);
+void motor_Backforward2(void);
 
 # 11 "motor.c"
 void motor_forward1(void)

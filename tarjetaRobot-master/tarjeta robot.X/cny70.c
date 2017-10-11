@@ -68,10 +68,10 @@ int getCNY70Value(void)
          return 1;
     }  
     
-    else if(SL2 == 1 && SL1 == 1 && SM == 1 && SR1 == 1 && SR2 == 1){
-        go_back();
-         return -10;
-     }
+//    else if(SL2 == 1 && SL1 == 1 && SM == 1 && SR1 == 1 && SR2 == 1){
+//        go_back();
+//         return -10;
+//     }
            
     else
         return 0;

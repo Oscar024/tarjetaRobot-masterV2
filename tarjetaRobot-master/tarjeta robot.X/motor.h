@@ -10,3 +10,7 @@
 
 void motor_forward(void);
 void motor_Backforward(void);
+void motor_forward1(void);
+void motor_forward2(void);
+void motor_Backforward1(void);
+void motor_Backforward2(void);
