@@ -1,0 +1,1115 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"16 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Bluetooth.c
+[v _BT_Init BT_Init `(v  1 e 0 0 ]
+"48
+[v _SendBlueToothCommand SendBlueToothCommand `(v  1 e 0 0 ]
+"53
+[v _CheckTX CheckTX `(v  1 e 0 0 ]
+"68
+[v _clrBufferUSART clrBufferUSART `(v  1 e 0 0 ]
+"90
+[v _putcBluetoothString putcBluetoothString `(v  1 e 0 0 ]
+"102
+[v _putcBluetoothInt putcBluetoothInt `(v  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+[v i2___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+[v i2___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+[v i2___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+[v i2___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c
+[v _OpenPWM1 OpenPWM1 `(v  1 e 0 0 ]
+"23
+[v _OpenPWM1ConfigIO OpenPWM1ConfigIO `(v  1 e 0 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
+[v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+[v i2_SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+[v i2_SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+"73 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c
+[v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+"5 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\cny70.c
+[v _getCNY70Value getCNY70Value `(i  1 e 2 0 ]
+"100
+[v _right right `(v  1 e 0 0 ]
+[v i2_right right `(v  1 e 0 0 ]
+"108
+[v _left left `(v  1 e 0 0 ]
+[v i2_left left `(v  1 e 0 0 ]
+"116
+[v _go_straight go_straight `(v  1 e 0 0 ]
+[v i2_go_straight go_straight `(v  1 e 0 0 ]
+"124
+[v _go_back go_back `(v  1 e 0 0 ]
+"39 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Funciones_Db.c
+[v _EstadoBluetooth EstadoBluetooth `(v  1 e 0 0 ]
+"62
+[v _Inicializa_Driveby Inicializa_Driveby `(v  1 e 0 0 ]
+"105
+[v _external_interrupt_init external_interrupt_init `(v  1 e 0 0 ]
+"126
+[v _Comando_Tablet Comando_Tablet `(v  1 e 0 0 ]
+"11 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v _motor_forward motor_forward `(v  1 e 0 0 ]
+[v i2_motor_forward motor_forward `(v  1 e 0 0 ]
+"21
+[v _motor_Backforward motor_Backforward `(v  1 e 0 0 ]
+"20 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _PWM_init1 PWM_init1 `(v  1 e 0 0 ]
+"33
+[v _PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
+[v i2_PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
+"42
+[v _PWM_init2 PWM_init2 `(v  1 e 0 0 ]
+"55
+[v _PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
+[v i2_PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
+"4 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Retardos.c
+[v _Pause_us Pause_us `(v  1 e 0 0 ]
+"11
+[v _Pause_ms Pause_ms `(v  1 e 0 0 ]
+"18
+[v _Pause_seg Pause_seg `(v  1 e 0 0 ]
+"85 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\robot.c
+[v _TMRO_USART TMRO_USART `II(v  1 e 0 0 ]
+"157
+[v _main main `(i  1 e 2 0 ]
+"5 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\UART1.c
+[v _UART1_Init UART1_Init `(v  1 e 0 0 ]
+"12
+[v _putcTxU1 putcTxU1 `(v  1 e 0 0 ]
+"18
+[v _putSTRINGU1 putSTRINGU1 `(v  1 e 0 0 ]
+"10 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Bluetooth.c
+[v _comando comando `[20]uc  1 e 20 0 ]
+"2569 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S948 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2616
+[s S956 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S964 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S970 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S973 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RA7 1 0 :1:7 
+]
+[s S976 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S979 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S981 . 1 `S948 1 . 1 0 `S956 1 . 1 0 `S964 1 . 1 0 `S970 1 . 1 0 `S973 1 . 1 0 `S976 1 . 1 0 `S979 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES981  1 e 1 @3968 ]
+"2725
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S298 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2755
+[s S1032 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1040 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1043 . 1 `S298 1 . 1 0 `S1032 1 . 1 0 `S1040 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1043  1 e 1 @3969 ]
+"2834
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2987
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S1298 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"3018
+[s S1307 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S1316 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S1319 . 1 `S1298 1 . 1 0 `S1307 1 . 1 0 `S1316 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES1319  1 e 1 @3971 ]
+"3107
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"3974
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"4171
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S289 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4203
+[u S307 . 1 `S289 1 . 1 0 `S298 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES307  1 e 1 @3987 ]
+"4392
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S250 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"4424
+[s S257 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S264 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TRISC3 1 0 :1:3 
+]
+[u S267 . 1 `S250 1 . 1 0 `S257 1 . 1 0 `S264 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES267  1 e 1 @3988 ]
+"4563
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4784
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4943
+[v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
+[s S673 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4972
+[s S682 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[s S685 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S688 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S691 . 1 `S673 1 . 1 0 `S682 1 . 1 0 `S685 1 . 1 0 `S688 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES691  1 e 1 @3997 ]
+"5060
+[v _PIR1bits PIR1bits `VES691  1 e 1 @3998 ]
+"5500
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S1579 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"5541
+[s S1588 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1591 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1594 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1597 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1600 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1602 . 1 `S1579 1 . 1 0 `S1588 1 . 1 0 `S1591 1 . 1 0 `S1594 1 . 1 0 `S1597 1 . 1 0 `S1600 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1602  1 e 1 @4011 ]
+"5709
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S67 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5769
+[s S76 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S79 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S82 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S85 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S88 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S91 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S94 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S96 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S99 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S102 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S104 . 1 `S67 1 . 1 0 `S76 1 . 1 0 `S79 1 . 1 0 `S82 1 . 1 0 `S85 1 . 1 0 `S88 1 . 1 0 `S91 1 . 1 0 `S94 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES104  1 e 1 @4012 ]
+"6006
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"6017
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"6028
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"6039
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"6841
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"6910
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"6922
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"7089
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+[s S846 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"7202
+[s S849 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S856 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[s S859 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG01 1 0 :1:4 
+]
+[s S862 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S865 . 1 `S846 1 . 1 0 `S849 1 . 1 0 `S856 1 . 1 0 `S859 1 . 1 0 `S862 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES865  1 e 1 @4033 ]
+"7809
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S1171 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7837
+[s S1175 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S1183 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S1189 . 1 `S1171 1 . 1 0 `S1175 1 . 1 0 `S1183 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1189  1 e 1 @4042 ]
+"7906
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"8015
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+[s S212 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"8610
+[s S218 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S226 . 1 `S212 1 . 1 0 `S218 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES226  1 e 1 @4051 ]
+"9017
+[v _INTCON3bits INTCON3bits `VES307  1 e 1 @4080 ]
+[s S436 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"9108
+[s S439 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S448 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S453 . 1 `S436 1 . 1 0 `S439 1 . 1 0 `S448 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES453  1 e 1 @4081 ]
+"9157
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+[s S349 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"9209
+[s S358 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S367 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S376 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S385 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S389 . 1 `S349 1 . 1 0 `S358 1 . 1 0 `S367 1 . 1 0 `S376 1 . 1 0 `S385 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES389  1 e 1 @4082 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+[s S1718 . 1 `uc 1 RX_NINE 1 0 :1:0 
+`uc 1 TX_NINE 1 0 :1:1 
+`uc 1 FRAME_ERROR 1 0 :1:2 
+`uc 1 OVERRUN_ERROR 1 0 :1:3 
+`uc 1 fill 1 0 :4:4 
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\udefs.c
+[u S1724 USART 1 `uc 1 val 1 0 `S1718 1 . 1 0 ]
+[v _USART_Status USART_Status `S1724  1 e 1 0 ]
+"14 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Funciones_Db.c
+[v _FinComandB FinComandB `uc  1 e 1 0 ]
+"15
+[v _FinComandT FinComandT `uc  1 e 1 0 ]
+"17
+[v _TamanhoTrama TamanhoTrama `i  1 e 2 0 ]
+"18
+[v _num_med_low num_med_low `uc  1 e 1 0 ]
+"19
+[v _num_med_medium num_med_medium `uc  1 e 1 0 ]
+"20
+[v _num_med_hi num_med_hi `uc  1 e 1 0 ]
+"21
+[v _Med_msb Med_msb `i  1 e 2 0 ]
+"22
+[v _Med_lsb Med_lsb `i  1 e 2 0 ]
+"24
+[v _packet packet `uc  1 e 1 0 ]
+"25
+[v _contador contador `uc  1 e 1 0 ]
+"26
+[v _contador2 contador2 `uc  1 e 1 0 ]
+"27
+[v _TramaTablet TramaTablet `[20]uc  1 e 20 0 ]
+"31
+[v _array array `[20]uc  1 e 20 0 ]
+"32
+[v _j j `uc  1 e 1 0 ]
+"15 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _i i `i  1 e 2 0 ]
+"16
+[v _countup countup `i  1 e 2 0 ]
+"17
+[v _DutyCycle DutyCycle `i  1 e 2 0 ]
+"18
+[v _Timer2Config Timer2Config `uc  1 e 1 0 ]
+"61 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\robot.c
+[v _CheckSum CheckSum `uc  1 e 1 0 ]
+"62
+[v _cleanBfer cleanBfer `uc  1 e 1 0 ]
+"63
+[v _ComanBFlag ComanBFlag `uc  1 e 1 0 ]
+"64
+[v _Comando Comando `uc  1 e 1 0 ]
+"65
+[v _ComandoTablet ComandoTablet `uc  1 e 1 0 ]
+"66
+[v _ComanTFlag ComanTFlag `uc  1 e 1 0 ]
+"67
+[v _EntTrama EntTrama `uc  1 e 1 0 ]
+"70
+[v _InicioComando InicioComando `uc  1 e 1 0 ]
+"71
+[v _lenght lenght `uc  1 e 1 0 ]
+"72
+[v _RXComandoTB RXComandoTB `uc  1 e 1 0 ]
+"73
+[v _SBUSART SBUSART `uc  1 e 1 0 ]
+"74
+[v _Timer1 Timer1 `uc  1 e 1 0 ]
+"75
+[v _BluetoothDato BluetoothDato `[50]uc  1 e 50 0 ]
+"77
+[v _cad cad `uc  1 e 1 0 ]
+"157
+[v _main main `(i  1 e 2 0 ]
+{
+"207
+} 0
+"62 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Funciones_Db.c
+[v _Inicializa_Driveby Inicializa_Driveby `(v  1 e 0 0 ]
+{
+"67
+[v Inicializa_Driveby@i i `i  1 a 2 52 ]
+"103
+} 0
+"42 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _PWM_init2 PWM_init2 `(v  1 e 0 0 ]
+{
+[v PWM_init2@period period `uc  1 a 1 wreg ]
+[v PWM_init2@period period `uc  1 a 1 wreg ]
+[v PWM_init2@period period `uc  1 a 1 3 ]
+"54
+} 0
+"18 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2open.c
+[v _OpenPWM2 OpenPWM2 `(v  1 e 0 0 ]
+{
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"23
+[v OpenPWM2@ccp2mx ccp2mx `uc  1 a 1 2 ]
+"18
+[v OpenPWM2@period period `uc  1 a 1 wreg ]
+"33
+[v OpenPWM2@period period `uc  1 a 1 1 ]
+"80
+} 0
+"20 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _PWM_init1 PWM_init1 `(v  1 e 0 0 ]
+{
+[v PWM_init1@period period `uc  1 a 1 wreg ]
+[v PWM_init1@period period `uc  1 a 1 wreg ]
+[v PWM_init1@period period `uc  1 a 1 1 ]
+"32
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1open.c
+[v _OpenPWM1 OpenPWM1 `(v  1 e 0 0 ]
+{
+[v OpenPWM1@period period `uc  1 a 1 wreg ]
+[v OpenPWM1@period period `uc  1 a 1 wreg ]
+"11
+[v OpenPWM1@period period `uc  1 a 1 0 ]
+"19
+} 0
+"16 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Bluetooth.c
+[v _BT_Init BT_Init `(v  1 e 0 0 ]
+{
+"22
+[v BT_Init@nameBT nameBT `[18]uc  1 a 18 14 ]
+"21
+[v BT_Init@F5675 F5675 `[18]uc  1 s 18 F5675 ]
+"46
+} 0
+"48
+[v _SendBlueToothCommand SendBlueToothCommand `(v  1 e 0 0 ]
+{
+[v SendBlueToothCommand@command command `*.34Cuc  1 p 2 10 ]
+[v SendBlueToothCommand@total total `ui  1 p 2 12 ]
+"51
+} 0
+"18 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\UART1.c
+[v _putSTRINGU1 putSTRINGU1 `(v  1 e 0 0 ]
+{
+"19
+[v putSTRINGU1@cont cont `uc  1 a 1 9 ]
+[v putSTRINGU1@last last `uc  1 a 1 8 ]
+"18
+[v putSTRINGU1@dato dato `*.34Cuc  1 p 2 2 ]
+[v putSTRINGU1@total total `ui  1 p 2 4 ]
+"28
+} 0
+"12
+[v _putcTxU1 putcTxU1 `(v  1 e 0 0 ]
+{
+[v putcTxU1@character character `uc  1 a 1 wreg ]
+[v putcTxU1@character character `uc  1 a 1 wreg ]
+"14
+[v putcTxU1@character character `uc  1 a 1 1 ]
+"16
+} 0
+"18 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Retardos.c
+[v _Pause_seg Pause_seg `(v  1 e 0 0 ]
+{
+[v Pause_seg@x x `uc  1 a 1 wreg ]
+"19
+[v Pause_seg@i i `uc  1 a 1 6 ]
+"18
+[v Pause_seg@x x `uc  1 a 1 wreg ]
+[v Pause_seg@x x `uc  1 a 1 5 ]
+"24
+} 0
+"11
+[v _Pause_ms Pause_ms `(v  1 e 0 0 ]
+{
+"12
+[v Pause_ms@i i `ui  1 a 2 3 ]
+"11
+[v Pause_ms@x x `ui  1 p 2 0 ]
+"16
+} 0
+"126 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Funciones_Db.c
+[v _Comando_Tablet Comando_Tablet `(v  1 e 0 0 ]
+{
+"128
+[v Comando_Tablet@sensed sensed `i  1 a 2 54 ]
+"163
+} 0
+"90 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Bluetooth.c
+[v _putcBluetoothString putcBluetoothString `(v  1 e 0 0 ]
+{
+"92
+[v putcBluetoothString@i i `i  1 a 2 11 ]
+"90
+[v putcBluetoothString@a a `*.32uc  1 p 2 7 ]
+"101
+} 0
+"102
+[v _putcBluetoothInt putcBluetoothInt `(v  1 e 0 0 ]
+{
+"105
+[v putcBluetoothInt@s s `[20]uc  1 a 20 32 ]
+"104
+[v putcBluetoothInt@i i `i  1 a 2 52 ]
+"102
+[v putcBluetoothInt@a a `i  1 p 2 30 ]
+"115
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S1372 . 5 `*.39Cuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+"533
+[u S1375 . 5 `ui 1 _val 2 0 `S1372 1 _str 5 0 ]
+[v sprintf@_val _val `S1375  1 a 5 24 ]
+"494
+[v sprintf@ap ap `[1]*.39v  1 a 2 20 ]
+"499
+[v sprintf@c c `c  1 a 1 29 ]
+"506
+[v sprintf@prec prec `c  1 a 1 23 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 22 ]
+"492
+[v sprintf@sp sp `*.39uc  1 p 2 12 ]
+[v sprintf@f f `*.32Cuc  1 p 2 14 ]
+"1550
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uwrite.c
+[v _WriteUSART WriteUSART `(v  1 e 0 0 ]
+{
+[v WriteUSART@data data `uc  1 a 1 wreg ]
+[v WriteUSART@data data `uc  1 a 1 wreg ]
+"15
+[v WriteUSART@data data `uc  1 a 1 0 ]
+"23
+} 0
+"5 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\UART1.c
+[v _UART1_Init UART1_Init `(v  1 e 0 0 ]
+{
+[v UART1_Init@bdr bdr `uc  1 a 1 wreg ]
+[v UART1_Init@bdr bdr `uc  1 a 1 wreg ]
+"8
+[v UART1_Init@bdr bdr `uc  1 a 1 6 ]
+"10
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 0 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 5 ]
+"143
+} 0
+"5 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\cny70.c
+[v _getCNY70Value getCNY70Value `(i  1 e 2 0 ]
+{
+"98
+} 0
+"100
+[v _right right `(v  1 e 0 0 ]
+{
+"106
+} 0
+"108
+[v _left left `(v  1 e 0 0 ]
+{
+"114
+} 0
+"116
+[v _go_straight go_straight `(v  1 e 0 0 ]
+{
+"122
+} 0
+"11 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v _motor_forward motor_forward `(v  1 e 0 0 ]
+{
+"19
+} 0
+"124 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\cny70.c
+[v _go_back go_back `(v  1 e 0 0 ]
+{
+"130
+} 0
+"21 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v _motor_Backforward motor_Backforward `(v  1 e 0 0 ]
+{
+"29
+} 0
+"55 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
+{
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+[v PWM_DutyCycle2@DC DC `ui  1 a 2 49 ]
+"57
+[v PWM_DutyCycle2@DutyCycle DutyCycle `ui  1 a 2 46 ]
+"55
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+"57
+[v PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 48 ]
+"62
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
+[v _SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+{
+[u S1433 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM2@DCycle DCycle `S1433  1 a 2 4 ]
+"7
+[v SetDCPWM2@dutycycle dutycycle `ui  1 p 2 0 ]
+"19
+} 0
+"33 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v _PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
+{
+[v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+[v PWM_DutyCycle1@DC DC `ui  1 a 2 49 ]
+"35
+[v PWM_DutyCycle1@DutyCycle DutyCycle `ui  1 a 2 46 ]
+"33
+[v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+"35
+[v PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 48 ]
+"40
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 11 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 37 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 41 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 36 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 27 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 22 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 26 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 25 ]
+[v ___ftmul@exp exp `uc  1 a 1 21 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 12 ]
+[v ___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
+[v _SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+{
+[u S1433 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+"9
+[v SetDCPWM1@DCycle DCycle `S1433  1 a 2 4 ]
+"7
+[v SetDCPWM1@dutycycle dutycycle `ui  1 p 2 0 ]
+"19
+} 0
+"68 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Bluetooth.c
+[v _clrBufferUSART clrBufferUSART `(v  1 e 0 0 ]
+{
+"69
+[v clrBufferUSART@i i `i  1 a 2 0 ]
+"76
+} 0
+"85 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\robot.c
+[v _TMRO_USART TMRO_USART `II(v  1 e 0 0 ]
+{
+"154
+} 0
+"100 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\cny70.c
+[v i2_right right `(v  1 e 0 0 ]
+{
+"106
+} 0
+"108
+[v i2_left left `(v  1 e 0 0 ]
+{
+"114
+} 0
+"116
+[v i2_go_straight go_straight `(v  1 e 0 0 ]
+{
+"122
+} 0
+"11 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v i2_motor_forward motor_forward `(v  1 e 0 0 ]
+{
+"19
+} 0
+"55 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v i2_PWM_DutyCycle2 PWM_DutyCycle2 `(v  1 e 0 0 ]
+{
+[v i2PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+[v i2PWM_DutyCycle2@DC PWM_DutyCycle2 `ui  1 a 2 49 ]
+[v i2PWM_DutyCycle2@DutyCycle PWM_DutyCycle2 `ui  1 a 2 46 ]
+[v i2PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+"57
+[v i2PWM_DutyCycle2@percentageDuty percentageDuty `uc  1 a 1 48 ]
+"62
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw2setdc.c
+[v i2_SetDCPWM2 SetDCPWM2 `(v  1 e 0 0 ]
+{
+[u S1433 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+[v i2SetDCPWM2@DCycle SetDCPWM2 `S1433  1 a 2 4 ]
+[v i2SetDCPWM2@dutycycle dutycycle `ui  1 p 2 0 ]
+"19
+} 0
+"33 C:\Users\Dell\Documents\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\pwm.c
+[v i2_PWM_DutyCycle1 PWM_DutyCycle1 `(v  1 e 0 0 ]
+{
+[v i2PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+[v i2PWM_DutyCycle1@DC PWM_DutyCycle1 `ui  1 a 2 49 ]
+[v i2PWM_DutyCycle1@DutyCycle PWM_DutyCycle1 `ui  1 a 2 46 ]
+[v i2PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 wreg ]
+"35
+[v i2PWM_DutyCycle1@percentageDuty percentageDuty `uc  1 a 1 48 ]
+"40
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lbtoft.c
+[v i2___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v i2___lbtoft@c c `uc  1 a 1 wreg ]
+[v i2___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v i2___lbtoft@c c `uc  1 a 1 11 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fttol.c
+[v i2___fttol __fttol `(l  1 e 4 0 ]
+{
+[v i2___fttol@lval __fttol `ul  1 a 4 37 ]
+[v i2___fttol@exp1 __fttol `uc  1 a 1 41 ]
+[v i2___fttol@sign1 __fttol `uc  1 a 1 36 ]
+[v i2___fttol@f1 f1 `f  1 p 3 27 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\ftmul.c
+[v i2___ftmul __ftmul `(f  1 e 3 0 ]
+{
+[v i2___ftmul@f3_as_product __ftmul `um  1 a 3 22 ]
+[v i2___ftmul@sign __ftmul `uc  1 a 1 26 ]
+[v i2___ftmul@cntr __ftmul `uc  1 a 1 25 ]
+[v i2___ftmul@exp __ftmul `uc  1 a 1 21 ]
+[v i2___ftmul@f1 f1 `f  1 p 3 12 ]
+[v i2___ftmul@f2 f2 `f  1 p 3 15 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\float.c
+[v i2___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v i2___ftpack@arg arg `um  1 p 3 0 ]
+[v i2___ftpack@exp exp `uc  1 p 1 3 ]
+[v i2___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c
+[v i2_SetDCPWM1 SetDCPWM1 `(v  1 e 0 0 ]
+{
+[u S1433 PWMDC 2 `ui 1 lpwm 2 0 `[2]uc 1 bpwm 2 0 ]
+[v i2SetDCPWM1@DCycle SetDCPWM1 `S1433  1 a 2 4 ]
+[v i2SetDCPWM1@dutycycle dutycycle `ui  1 p 2 0 ]
+"19
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.33\sources\pic18\plib\USART\uread.c
+[v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
+{
+"17
+[v ReadUSART@data data `uc  1 a 1 0 ]
+"37
+} 0
