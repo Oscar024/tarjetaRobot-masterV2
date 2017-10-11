@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"2993 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"2993 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S213 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S213 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
 "3003
@@ -16,7 +16,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
-"49 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"49 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [; ;pic18f4550.h: 49: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 52: typedef union {
@@ -4822,12 +4822,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;motor.h: 11: void motor_forward(void);
 [; ;motor.h: 12: void motor_Backforward(void);
 "11 motor.c
-[v _motor_forward `(v ~T0 @X0 1 ef ]
+[v _motor_forward1 `(v ~T0 @X0 1 ef ]
 "12
 {
-[; ;motor.c: 11: void motor_forward(void)
+[; ;motor.c: 11: void motor_forward1(void)
 [; ;motor.c: 12: {
-[e :U _motor_forward ]
+[e :U _motor_forward1 ]
 [f ]
 [; ;motor.c: 13: PORTDbits.RD7 = 1;
 "13
@@ -4835,43 +4835,127 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;motor.c: 14: PORTDbits.RD4 = 0;
 "14
 [e = . . _PORTDbits 0 4 -> -> 0 `i `uc ]
-[; ;motor.c: 15: PORTDbits.RD2 = 1;
-"15
-[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
-[; ;motor.c: 16: PORTDbits.RD3 = 0;
-"16
-[e = . . _PORTDbits 0 3 -> -> 0 `i `uc ]
-[; ;motor.c: 18: return;
-"18
+[; ;motor.c: 17: return;
+"17
 [e $UE 593  ]
-[; ;motor.c: 19: }
-"19
+[; ;motor.c: 18: }
+"18
 [e :UE 593 ]
 }
+"20
+[v _motor_Backforward1 `(v ~T0 @X0 1 ef ]
 "21
-[v _motor_Backforward `(v ~T0 @X0 1 ef ]
-"22
 {
-[; ;motor.c: 21: void motor_Backforward(void)
-[; ;motor.c: 22: {
+[; ;motor.c: 20: void motor_Backforward1(void)
+[; ;motor.c: 21: {
+[e :U _motor_Backforward1 ]
+[f ]
+[; ;motor.c: 22: PORTDbits.RD7 = 0;
+"22
+[e = . . _PORTDbits 0 7 -> -> 0 `i `uc ]
+[; ;motor.c: 23: PORTDbits.RD4 = 1;
+"23
+[e = . . _PORTDbits 0 4 -> -> 1 `i `uc ]
+[; ;motor.c: 26: return;
+"26
+[e $UE 594  ]
+[; ;motor.c: 27: }
+"27
+[e :UE 594 ]
+}
+"29
+[v _motor_forward2 `(v ~T0 @X0 1 ef ]
+"30
+{
+[; ;motor.c: 29: void motor_forward2(void)
+[; ;motor.c: 30: {
+[e :U _motor_forward2 ]
+[f ]
+[; ;motor.c: 32: PORTDbits.RD2 = 1;
+"32
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[; ;motor.c: 33: PORTDbits.RD3 = 0;
+"33
+[e = . . _PORTDbits 0 3 -> -> 0 `i `uc ]
+[; ;motor.c: 35: return;
+"35
+[e $UE 595  ]
+[; ;motor.c: 36: }
+"36
+[e :UE 595 ]
+}
+"38
+[v _motor_Backforward2 `(v ~T0 @X0 1 ef ]
+"39
+{
+[; ;motor.c: 38: void motor_Backforward2(void)
+[; ;motor.c: 39: {
+[e :U _motor_Backforward2 ]
+[f ]
+[; ;motor.c: 41: PORTDbits.RD2 = 0;
+"41
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[; ;motor.c: 42: PORTDbits.RD3 = 1;
+"42
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+[; ;motor.c: 44: return;
+"44
+[e $UE 596  ]
+[; ;motor.c: 45: }
+"45
+[e :UE 596 ]
+}
+"47
+[v _motor_forward `(v ~T0 @X0 1 ef ]
+"48
+{
+[; ;motor.c: 47: void motor_forward(void)
+[; ;motor.c: 48: {
+[e :U _motor_forward ]
+[f ]
+[; ;motor.c: 49: PORTDbits.RD7 = 1;
+"49
+[e = . . _PORTDbits 0 7 -> -> 1 `i `uc ]
+[; ;motor.c: 50: PORTDbits.RD4 = 0;
+"50
+[e = . . _PORTDbits 0 4 -> -> 0 `i `uc ]
+[; ;motor.c: 51: PORTDbits.RD2 = 1;
+"51
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[; ;motor.c: 52: PORTDbits.RD3 = 0;
+"52
+[e = . . _PORTDbits 0 3 -> -> 0 `i `uc ]
+[; ;motor.c: 54: return;
+"54
+[e $UE 597  ]
+[; ;motor.c: 55: }
+"55
+[e :UE 597 ]
+}
+"57
+[v _motor_Backforward `(v ~T0 @X0 1 ef ]
+"58
+{
+[; ;motor.c: 57: void motor_Backforward(void)
+[; ;motor.c: 58: {
 [e :U _motor_Backforward ]
 [f ]
-[; ;motor.c: 23: PORTDbits.RD7 = 0;
-"23
+[; ;motor.c: 59: PORTDbits.RD7 = 0;
+"59
 [e = . . _PORTDbits 0 7 -> -> 0 `i `uc ]
-[; ;motor.c: 24: PORTDbits.RD4 = 1;
-"24
+[; ;motor.c: 60: PORTDbits.RD4 = 1;
+"60
 [e = . . _PORTDbits 0 4 -> -> 1 `i `uc ]
-[; ;motor.c: 25: PORTDbits.RD2 = 0;
-"25
+[; ;motor.c: 61: PORTDbits.RD2 = 0;
+"61
 [e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
-[; ;motor.c: 26: PORTDbits.RD3 = 1;
-"26
+[; ;motor.c: 62: PORTDbits.RD3 = 1;
+"62
 [e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
-[; ;motor.c: 28: return;
-"28
-[e $UE 594  ]
-[; ;motor.c: 29: }
-"29
-[e :UE 594 ]
+[; ;motor.c: 64: return;
+"64
+[e $UE 598  ]
+[; ;motor.c: 65: }
+"65
+[e :UE 598 ]
 }

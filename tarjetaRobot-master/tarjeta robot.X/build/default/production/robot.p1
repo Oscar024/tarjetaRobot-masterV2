@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"5037 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"5037 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S332 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S332 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF SPPIF ]
 "5047
@@ -16,11 +16,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S331 . . . . . ]
 "5060
 [v _PIR1bits `VS331 ~T0 @X0 0 e@3998 ]
-"596 C:\Program Files (x86)\Microchip\xc8\v1.33\include\plib\usart.h
+"596 C:\Program Files\Microchip\xc8\v1.33\include\plib\usart.h
 [v _ReadUSART `(uc ~T0 @X0 0 ef ]
 "69 robot.c
 [v _FinComandT `uc ~T0 @X0 0 e ]
-"9163 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"9163 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S548 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S548 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
 "9173
@@ -42,7 +42,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _INTCONbits `VS547 ~T0 @X0 0 e@4082 ]
 "55 cny70.h
 [v _go_straight `(v ~T0 @X0 0 ef ]
-"8996 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"8996 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S541 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S541 . INT1IF INT2IF . INT1IE INT2IE . INT1IP INT2IP ]
 "9006
@@ -57,7 +57,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _right `(v ~T0 @X0 0 ef ]
 "54
 [v _left `(v ~T0 @X0 0 ef ]
-"4949 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"4949 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S327 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S327 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE SPPIE ]
 "4959
@@ -105,7 +105,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _Inicializa_Driveby `(v ~T0 @X0 0 ef ]
 "31 Bluetooth.h
 [v _clrBufferUSART `(v ~T0 @X0 0 ef ]
-"5500 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"5500 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [v _RCSTA `Vuc ~T0 @X0 0 e@4011 ]
 "5720
 [s S368 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -153,7 +153,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _UART1_Init `(v ~T0 @X0 0 ef1`uc ]
 "68 robot.c
 [v _FinComandB `uc ~T0 @X0 0 e ]
-"2575 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"2575 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S193 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S193 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 ]
 "2584
@@ -198,7 +198,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
-"49 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"49 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [; ;pic18f4550.h: 49: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 52: typedef union {

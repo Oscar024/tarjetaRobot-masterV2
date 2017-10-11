@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"2731 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"2731 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S201 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S201 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
 "2741
@@ -21,18 +21,26 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _right `(v ~T0 @X0 0 ef ]
 "56
 [v _go_back `(v ~T0 @X0 0 ef ]
-"65 Funciones_Db.h
-[v _motor_forward `(v ~T0 @X0 0 ef ]
+"102 cny70.c
+[v _motor_forward1 `(i ~T0 @X0 0 ef ]
+"103
+[v _motor_Backforward1 `(i ~T0 @X0 0 ef ]
 "42 pwm.h
 [v _PWM_DutyCycle1 `(v ~T0 @X0 0 ef1`uc ]
 "44
 [v _PWM_DutyCycle2 `(v ~T0 @X0 0 ef1`uc ]
-"66 Funciones_Db.h
+"111 cny70.c
+[v _motor_forward2 `(i ~T0 @X0 0 ef ]
+"112
+[v _motor_Backforward2 `(i ~T0 @X0 0 ef ]
+"65 Funciones_Db.h
+[v _motor_forward `(v ~T0 @X0 0 ef ]
+"66
 [v _motor_Backforward `(v ~T0 @X0 0 ef ]
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
-"49 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"49 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [; ;pic18f4550.h: 49: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 52: typedef union {
@@ -5055,91 +5063,97 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;cny70.c: 101: {
 [e :U _right ]
 [f ]
-[; ;cny70.c: 102: motor_forward();
+[; ;cny70.c: 102: motor_forward1();
 "102
-[e ( _motor_forward ..  ]
-[; ;cny70.c: 103: PWM_DutyCycle1(100);
+[e ( _motor_forward1 ..  ]
+[; ;cny70.c: 103: motor_Backforward1();
 "103
-[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 104: PWM_DutyCycle2(0);
+[e ( _motor_Backforward1 ..  ]
+[; ;cny70.c: 104: PWM_DutyCycle1(100);
 "104
-[e ( _PWM_DutyCycle2 (1 -> -> 0 `i `uc ]
-[; ;cny70.c: 105: return;
+[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 105: PWM_DutyCycle2(100);
 "105
-[e $UE 614  ]
-[; ;cny70.c: 106: }
+[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 106: return;
 "106
+[e $UE 614  ]
+[; ;cny70.c: 107: }
+"107
 [e :UE 614 ]
 }
-"108
-[v _left `(v ~T0 @X0 1 ef ]
 "109
+[v _left `(v ~T0 @X0 1 ef ]
+"110
 {
-[; ;cny70.c: 108: void left(void)
-[; ;cny70.c: 109: {
+[; ;cny70.c: 109: void left(void)
+[; ;cny70.c: 110: {
 [e :U _left ]
 [f ]
-[; ;cny70.c: 110: motor_forward();
-"110
-[e ( _motor_forward ..  ]
-[; ;cny70.c: 111: PWM_DutyCycle1(0);
+[; ;cny70.c: 111: motor_forward2();
 "111
-[e ( _PWM_DutyCycle1 (1 -> -> 0 `i `uc ]
-[; ;cny70.c: 112: PWM_DutyCycle2(100);
+[e ( _motor_forward2 ..  ]
+[; ;cny70.c: 112: motor_Backforward2();
 "112
-[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 113: return;
+[e ( _motor_Backforward2 ..  ]
+[; ;cny70.c: 113: PWM_DutyCycle1(100);
 "113
-[e $UE 615  ]
-[; ;cny70.c: 114: }
+[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 114: PWM_DutyCycle2(100);
 "114
+[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 115: return;
+"115
+[e $UE 615  ]
+[; ;cny70.c: 116: }
+"116
 [e :UE 615 ]
 }
-"116
+"118
 [v _go_straight `(v ~T0 @X0 1 ef ]
-"117
+"119
 {
-[; ;cny70.c: 116: void go_straight(void)
-[; ;cny70.c: 117: {
+[; ;cny70.c: 118: void go_straight(void)
+[; ;cny70.c: 119: {
 [e :U _go_straight ]
 [f ]
-[; ;cny70.c: 118: motor_forward();
-"118
-[e ( _motor_forward ..  ]
-[; ;cny70.c: 119: PWM_DutyCycle1(100);
-"119
-[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 120: PWM_DutyCycle2(100);
+[; ;cny70.c: 120: motor_forward();
 "120
-[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 121: return;
+[e ( _motor_forward ..  ]
+[; ;cny70.c: 121: PWM_DutyCycle1(100);
 "121
-[e $UE 616  ]
-[; ;cny70.c: 122: }
+[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 122: PWM_DutyCycle2(100);
 "122
+[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 123: return;
+"123
+[e $UE 616  ]
+[; ;cny70.c: 124: }
+"124
 [e :UE 616 ]
 }
-"124
+"126
 [v _go_back `(v ~T0 @X0 1 ef ]
-"125
+"127
 {
-[; ;cny70.c: 124: void go_back(void)
-[; ;cny70.c: 125: {
+[; ;cny70.c: 126: void go_back(void)
+[; ;cny70.c: 127: {
 [e :U _go_back ]
 [f ]
-[; ;cny70.c: 126: motor_Backforward();
-"126
-[e ( _motor_Backforward ..  ]
-[; ;cny70.c: 127: PWM_DutyCycle1(100);
-"127
-[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 128: PWM_DutyCycle2(100);
+[; ;cny70.c: 128: motor_Backforward();
 "128
-[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
-[; ;cny70.c: 129: return;
+[e ( _motor_Backforward ..  ]
+[; ;cny70.c: 129: PWM_DutyCycle1(100);
 "129
-[e $UE 617  ]
-[; ;cny70.c: 130: }
+[e ( _PWM_DutyCycle1 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 130: PWM_DutyCycle2(100);
 "130
+[e ( _PWM_DutyCycle2 (1 -> -> 100 `i `uc ]
+[; ;cny70.c: 131: return;
+"131
+[e $UE 617  ]
+[; ;cny70.c: 132: }
+"132
 [e :UE 617 ]
 }

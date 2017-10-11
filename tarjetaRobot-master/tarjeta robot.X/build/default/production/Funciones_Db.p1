@@ -1,5 +1,5 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"51 C:\Program Files (x86)\Microchip\xc8\v1.33\include\string.h
+"51 C:\Program Files\Microchip\xc8\v1.33\include\string.h
 [v _strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
 "28 Funciones_Db.c
 [v _BluetoothDato `uc ~T0 @X0 -> 0 `x e ]
@@ -15,7 +15,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _clrBufferUSART `(v ~T0 @X0 0 ef ]
 "39 UART1.h
 [v _UART1_Init `(v ~T0 @X0 0 ef1`uc ]
-"3974 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"3974 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 "4171
 [v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
@@ -26,10 +26,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 "9157
 [v _INTCON `Vuc ~T0 @X0 0 e@4082 ]
 [v F5249 `(v ~T0 @X0 1 tf1`ul ]
-"147 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18.h
+"147 C:\Program Files\Microchip\xc8\v1.33\include\pic18.h
 [v __delay `JF5249 ~T0 @X0 0 e ]
 [p i __delay ]
-"8593 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"8593 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S529 :2 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
 [n S529 . SCS IOFS OSTS IRCF IDLEN ]
 "8600
@@ -85,7 +85,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _PWM_DutyCycle1 `(v ~T0 @X0 0 ef1`uc ]
 "44
 [v _PWM_DutyCycle2 `(v ~T0 @X0 0 ef1`uc ]
-"9163 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"9163 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [s S548 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S548 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
 "9173
@@ -139,7 +139,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;htc.h: 21: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 24: extern void __builtin_software_breakpoint(void);
 [; ;pic18f4550.h: 47: extern volatile unsigned char SPPDATA @ 0xF62;
-"49 C:\Program Files (x86)\Microchip\xc8\v1.33\include\pic18f4550.h
+"49 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
 [; ;pic18f4550.h: 49: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;pic18f4550.h: 52: typedef union {
