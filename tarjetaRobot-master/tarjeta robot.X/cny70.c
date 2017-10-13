@@ -99,7 +99,7 @@ int getCNY70Value(void)
 
 void right(void)
 {
-    motor_forward1();
+    motor_forward2();
     motor_Backforward1();
     PWM_DutyCycle1(100);
     PWM_DutyCycle2(100);
@@ -108,7 +108,7 @@ void right(void)
 
 void left(void)
 {
-    motor_forward2();
+    motor_forward1();
     motor_Backforward2();
     PWM_DutyCycle1(100);
     PWM_DutyCycle2(100);

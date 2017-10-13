@@ -202,7 +202,7 @@ _clrBufferUSART 1BB2 0 CODE 0
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
 __CFG_CCP2MX$ON 0 0 ABS 0
-_motor_forward2 1E42 0 CODE 0
+_motor_forward2 1E36 0 CODE 0
 __size_of_motor_forward1 0 0 ABS 0
 __size_of_motor_forward2 0 0 ABS 0
 __HdataBANK0 0 0 ABS 0
@@ -212,8 +212,8 @@ _PWM_DutyCycle1 1734 0 CODE 0
 ___ftmul@sign C6 0 BANK0 1
 end_of_initialization 1A32 0 CODE 0
 OpenUSART@spbrg AC 0 BANK0 1
-__end_ofi2_motor_forward1 1E54 0 CODE 0
-__end_ofi2_motor_forward2 1E60 0 CODE 0
+__end_ofi2_motor_forward1 1E60 0 CODE 0
+__end_ofi2_motor_forward2 1E54 0 CODE 0
 i2___fttol@f1 1C 0 COMRAM 1
 i2PWM_DutyCycle2@DC 32 0 COMRAM 1
 __size_of_SendBlueToothCommand 0 0 ABS 0
@@ -276,8 +276,8 @@ __Lbank6 0 0 ABS 0
 __Hbank7 0 0 ABS 0
 __Lbank7 0 0 ABS 0
 i2_motor_forward 1E2C 0 CODE 0
-i2_motor_forward1 1E4E 0 CODE 0
-i2_motor_forward2 1E5A 0 CODE 0
+i2_motor_forward1 1E5A 0 CODE 0
+i2_motor_forward2 1E4E 0 CODE 0
 i2___ftmul@f2 10 0 COMRAM 1
 _num_med_hi 5A 0 COMRAM 1
 __Htext0 0 0 ABS 0
@@ -659,8 +659,8 @@ __end_of_putSTRINGU1 13F8 0 CODE 0
 __stringdata 80B 0 SMALLCONST 0
 __end_ofi2_motor_Backforward2 1E66 0 CODE 0
 __accesstop 60 0 ABS 0
-__end_of_motor_forward1 1E3C 0 CODE 0
-__end_of_motor_forward2 1E48 0 CODE 0
+__end_of_motor_forward1 1E48 0 CODE 0
+__end_of_motor_forward2 1E3C 0 CODE 0
 __size_ofi2___fttol 0 0 ABS 0
 __Hintcode_body 0 0 ABS 0
 __size_ofi2___ftmul 0 0 ABS 0
@@ -711,7 +711,7 @@ __size_of_sprintf 0 0 ABS 0
 __initialization 19D6 0 CODE 0
 PWM_DutyCycle1@DC DD 0 BANK0 1
 __size_ofi2_left 0 0 ABS 0
-_motor_forward1 1E36 0 CODE 0
+_motor_forward1 1E42 0 CODE 0
 __CFG_LPT1OSC$OFF 0 0 ABS 0
 PWM_DutyCycle1@percentageDuty DC 0 BANK0 1
 ___lwmod@dividend B3 0 BANK0 1
@@ -742,7 +742,7 @@ text15 86C 1E67 CODE 86C 0
 %locals
 dist/default/production\tarjeta_robot.X.production.obj
 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
-C:\Users\MCC\AppData\Local\Temp\s4u8.
+C:\Users\MCC\AppData\Local\Temp\s53k.
 3319 19D6 0 CODE 0
 3321 19D6 0 CODE 0
 3324 19D6 0 CODE 0
@@ -1112,10 +1112,10 @@ cny70.c
 105 1D68 0 CODE 0
 107 1D6E 0 CODE 0
 motor.c
-11 1E36 0 CODE 0
-13 1E36 0 CODE 0
-14 1E38 0 CODE 0
-18 1E3A 0 CODE 0
+29 1E36 0 CODE 0
+32 1E36 0 CODE 0
+33 1E38 0 CODE 0
+36 1E3A 0 CODE 0
 motor.c
 20 1E3C 0 CODE 0
 22 1E3C 0 CODE 0
@@ -1129,10 +1129,10 @@ cny70.c
 114 1D7E 0 CODE 0
 116 1D84 0 CODE 0
 motor.c
-29 1E42 0 CODE 0
-32 1E42 0 CODE 0
-33 1E44 0 CODE 0
-36 1E46 0 CODE 0
+11 1E42 0 CODE 0
+13 1E42 0 CODE 0
+14 1E44 0 CODE 0
+18 1E46 0 CODE 0
 motor.c
 38 1E48 0 CODE 0
 41 1E48 0 CODE 0
@@ -1298,10 +1298,10 @@ cny70.c
 105 1D94 0 CODE 0
 107 1D9A 0 CODE 0
 motor.c
-11 1E4E 0 CODE 0
-13 1E4E 0 CODE 0
-14 1E50 0 CODE 0
-18 1E52 0 CODE 0
+29 1E4E 0 CODE 0
+32 1E4E 0 CODE 0
+33 1E50 0 CODE 0
+36 1E52 0 CODE 0
 motor.c
 20 1E54 0 CODE 0
 22 1E54 0 CODE 0
@@ -1315,10 +1315,10 @@ cny70.c
 114 1DAA 0 CODE 0
 116 1DB0 0 CODE 0
 motor.c
-29 1E5A 0 CODE 0
-32 1E5A 0 CODE 0
-33 1E5C 0 CODE 0
-36 1E5E 0 CODE 0
+11 1E5A 0 CODE 0
+13 1E5A 0 CODE 0
+14 1E5C 0 CODE 0
+18 1E5E 0 CODE 0
 motor.c
 38 1E60 0 CODE 0
 41 1E60 0 CODE 0

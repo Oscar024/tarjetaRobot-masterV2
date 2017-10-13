@@ -16,8 +16,8 @@ _PWM_DutyCycle2: CODE, 5816 0 124
 ___ftpack: CODE, 3306 0 266
 _dpowers: SMALLCONST, 2049 0 10
 _main: CODE, 5280 0 138
-i2_motor_forward1: CODE, 7758 0 6
-i2_motor_forward2: CODE, 7770 0 6
+i2_motor_forward1: CODE, 7770 0 6
+i2_motor_forward2: CODE, 7758 0 6
 _putcBluetoothString: CODE, 5418 0 136
 i2___ftmul: CODE, 4060 0 228
 i2_SetDCPWM1: CODE, 7216 0 58
@@ -50,8 +50,8 @@ _OpenPWM2: CODE, 7022 0 68
 _BT_Init: CODE, 4716 0 206
 _putSTRINGU1: CODE, 4922 0 190
 i2_motor_Backforward2: CODE, 7776 0 6
-_motor_forward1: CODE, 7734 0 6
-_motor_forward2: CODE, 7746 0 6
+_motor_forward1: CODE, 7746 0 6
+_motor_forward2: CODE, 7734 0 6
 _SetDCPWM1: CODE, 6880 0 72
 _SetDCPWM2: CODE, 6808 0 72
 _right: CODE, 7514 0 22

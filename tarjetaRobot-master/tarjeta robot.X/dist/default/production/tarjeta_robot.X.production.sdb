@@ -897,10 +897,10 @@
 {
 "107
 } 0
-"11 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
-[v _motor_forward1 motor_forward1 `(i  1 e 2 0 ]
+"29 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v _motor_forward2 motor_forward2 `(i  1 e 2 0 ]
 {
-"18
+"36
 } 0
 "20
 [v _motor_Backforward1 motor_Backforward1 `(i  1 e 2 0 ]
@@ -912,10 +912,10 @@
 {
 "116
 } 0
-"29 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
-[v _motor_forward2 motor_forward2 `(i  1 e 2 0 ]
+"11 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v _motor_forward1 motor_forward1 `(i  1 e 2 0 ]
 {
-"36
+"18
 } 0
 "38
 [v _motor_Backforward2 motor_Backforward2 `(i  1 e 2 0 ]
@@ -1038,10 +1038,10 @@
 {
 "107
 } 0
-"11 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
-[v i2_motor_forward1 motor_forward1 `(i  1 e 2 0 ]
+"29 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v i2_motor_forward2 motor_forward2 `(i  1 e 2 0 ]
 {
-"18
+"36
 } 0
 "20
 [v i2_motor_Backforward1 motor_Backforward1 `(i  1 e 2 0 ]
@@ -1053,10 +1053,10 @@
 {
 "116
 } 0
-"29 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
-[v i2_motor_forward2 motor_forward2 `(i  1 e 2 0 ]
+"11 C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c
+[v i2_motor_forward1 motor_forward1 `(i  1 e 2 0 ]
 {
-"36
+"18
 } 0
 "38
 [v i2_motor_Backforward2 motor_Backforward2 `(i  1 e 2 0 ]

@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC18 LITE Macro Assembler V1.33 build 59893 
-                                                                                               Wed Oct 11 12:21:31 2017
+                                                                                               Thu Oct 12 17:49:18 2017
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 59893
      1                           	processor	18F4550
@@ -4268,7 +4268,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4252 ;;		_PWM_DutyCycle1
   4253 ;;		_PWM_DutyCycle2
   4254 ;;		_motor_Backforward1
-  4255 ;;		_motor_forward1
+  4255 ;;		_motor_forward2
   4256 ;; This function is called by:
   4257 ;;		_getCNY70Value
   4258 ;; This function uses a non-reentrant model
@@ -4280,11 +4280,11 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4264  001D5A                     _right:
   4265                           	opt stack 21
   4266                           
-  4267                           ;cny70.c: 102: motor_forward1();
+  4267                           ;cny70.c: 102: motor_forward2();
   4268                           
   4269                           ; BSR set to: 0
   4270                           ;incstack = 0
-  4271  001D5A  EC1B  F00F         	call	_motor_forward1	;wreg free
+  4271  001D5A  EC1B  F00F         	call	_motor_forward2	;wreg free
   4272                           
   4273                           ;cny70.c: 103: motor_Backforward1();
   4274  001D5E  EC1E  F00F         	call	_motor_Backforward1	;wreg free
@@ -4323,9 +4323,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4307                           fsr2l	equ	0xFD9
   4308                           status	equ	0xFD8
   4309                           
-  4310 ;; *************** function _motor_forward1 *****************
+  4310 ;; *************** function _motor_forward2 *****************
   4311 ;; Defined at:
-  4312 ;;		line 11 in file "motor.c"
+  4312 ;;		line 29 in file "motor.c"
   4313 ;; Parameters:    Size  Location     Type
   4314 ;;		None
   4315 ;; Auto vars:     Size  Location     Type
@@ -4356,20 +4356,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4340                           	psect	text23
   4341  001E36                     __ptext23:
   4342                           	opt stack 0
-  4343  001E36                     _motor_forward1:
+  4343  001E36                     _motor_forward2:
   4344                           	opt stack 23
   4345                           
-  4346                           ;motor.c: 13: PORTDbits.RD7 = 1;
+  4346                           ;motor.c: 32: PORTDbits.RD2 = 1;
   4347                           
   4348                           ;incstack = 0
-  4349  001E36  8E83               	bsf	3971,7,c	;volatile
+  4349  001E36  8483               	bsf	3971,2,c	;volatile
   4350                           
-  4351                           ;motor.c: 14: PORTDbits.RD4 = 0;
-  4352  001E38  9883               	bcf	3971,4,c	;volatile
+  4351                           ;motor.c: 33: PORTDbits.RD3 = 0;
+  4352  001E38  9683               	bcf	3971,3,c	;volatile
   4353                           
-  4354                           ;motor.c: 17: return;
+  4354                           ;motor.c: 35: return;
   4355  001E3A  0012               	return	
-  4356  001E3C                     __end_of_motor_forward1:
+  4356  001E3C                     __end_of_motor_forward2:
   4357                           	opt stack 0
   4358                           tblptru	equ	0xFF8
   4359                           tblptrh	equ	0xFF7
@@ -4490,7 +4490,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4474 ;;		_PWM_DutyCycle1
   4475 ;;		_PWM_DutyCycle2
   4476 ;;		_motor_Backforward2
-  4477 ;;		_motor_forward2
+  4477 ;;		_motor_forward1
   4478 ;; This function is called by:
   4479 ;;		_getCNY70Value
   4480 ;; This function uses a non-reentrant model
@@ -4502,10 +4502,10 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4486  001D70                     _left:
   4487                           	opt stack 21
   4488                           
-  4489                           ;cny70.c: 111: motor_forward2();
+  4489                           ;cny70.c: 111: motor_forward1();
   4490                           
   4491                           ;incstack = 0
-  4492  001D70  EC21  F00F         	call	_motor_forward2	;wreg free
+  4492  001D70  EC21  F00F         	call	_motor_forward1	;wreg free
   4493                           
   4494                           ;cny70.c: 112: motor_Backforward2();
   4495  001D74  EC24  F00F         	call	_motor_Backforward2	;wreg free
@@ -4544,9 +4544,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4528                           fsr2l	equ	0xFD9
   4529                           status	equ	0xFD8
   4530                           
-  4531 ;; *************** function _motor_forward2 *****************
+  4531 ;; *************** function _motor_forward1 *****************
   4532 ;; Defined at:
-  4533 ;;		line 29 in file "motor.c"
+  4533 ;;		line 11 in file "motor.c"
   4534 ;; Parameters:    Size  Location     Type
   4535 ;;		None
   4536 ;; Auto vars:     Size  Location     Type
@@ -4577,20 +4577,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   4561                           	psect	text26
   4562  001E42                     __ptext26:
   4563                           	opt stack 0
-  4564  001E42                     _motor_forward2:
+  4564  001E42                     _motor_forward1:
   4565                           	opt stack 23
   4566                           
-  4567                           ;motor.c: 32: PORTDbits.RD2 = 1;
+  4567                           ;motor.c: 13: PORTDbits.RD7 = 1;
   4568                           
   4569                           ;incstack = 0
-  4570  001E42  8483               	bsf	3971,2,c	;volatile
+  4570  001E42  8E83               	bsf	3971,7,c	;volatile
   4571                           
-  4572                           ;motor.c: 33: PORTDbits.RD3 = 0;
-  4573  001E44  9683               	bcf	3971,3,c	;volatile
+  4572                           ;motor.c: 14: PORTDbits.RD4 = 0;
+  4573  001E44  9883               	bcf	3971,4,c	;volatile
   4574                           
-  4575                           ;motor.c: 35: return;
+  4575                           ;motor.c: 17: return;
   4576  001E46  0012               	return	
-  4577  001E48                     __end_of_motor_forward2:
+  4577  001E48                     __end_of_motor_forward1:
   4578                           	opt stack 0
   4579                           tblptru	equ	0xFF8
   4580                           tblptrh	equ	0xFF7
@@ -6571,7 +6571,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6555 ;;		i2_PWM_DutyCycle1
   6556 ;;		i2_PWM_DutyCycle2
   6557 ;;		i2_motor_Backforward1
-  6558 ;;		i2_motor_forward1
+  6558 ;;		i2_motor_forward2
   6559 ;; This function is called by:
   6560 ;;		_TMRO_USART
   6561 ;; This function uses a non-reentrant model
@@ -6583,10 +6583,10 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6567  001D86                     i2_right:
   6568                           	opt stack 20
   6569                           
-  6570                           ;cny70.c: 102: motor_forward1();
+  6570                           ;cny70.c: 102: motor_forward2();
   6571                           
   6572                           ;incstack = 0
-  6573  001D86  EC27  F00F         	call	i2_motor_forward1	;wreg free
+  6573  001D86  EC27  F00F         	call	i2_motor_forward2	;wreg free
   6574                           
   6575                           ;cny70.c: 103: motor_Backforward1();
   6576  001D8A  EC2A  F00F         	call	i2_motor_Backforward1	;wreg free
@@ -6629,9 +6629,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6613                           fsr2l	equ	0xFD9
   6614                           status	equ	0xFD8
   6615                           
-  6616 ;; *************** function i2_motor_forward1 *****************
+  6616 ;; *************** function i2_motor_forward2 *****************
   6617 ;; Defined at:
-  6618 ;;		line 11 in file "motor.c"
+  6618 ;;		line 29 in file "motor.c"
   6619 ;; Parameters:    Size  Location     Type
   6620 ;;		None
   6621 ;; Auto vars:     Size  Location     Type
@@ -6661,20 +6661,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6645                           	psect	text41
   6646  001E4E                     __ptext41:
   6647                           	opt stack 0
-  6648  001E4E                     i2_motor_forward1:
+  6648  001E4E                     i2_motor_forward2:
   6649                           	opt stack 22
   6650                           
-  6651                           ;motor.c: 13: PORTDbits.RD7 = 1;
+  6651                           ;motor.c: 32: PORTDbits.RD2 = 1;
   6652                           
   6653                           ;incstack = 0
-  6654  001E4E  8E83               	bsf	3971,7,c	;volatile
+  6654  001E4E  8483               	bsf	3971,2,c	;volatile
   6655                           
-  6656                           ;motor.c: 14: PORTDbits.RD4 = 0;
-  6657  001E50  9883               	bcf	3971,4,c	;volatile
+  6656                           ;motor.c: 33: PORTDbits.RD3 = 0;
+  6657  001E50  9683               	bcf	3971,3,c	;volatile
   6658                           
-  6659                           ;motor.c: 17: return;
+  6659                           ;motor.c: 35: return;
   6660  001E52  0012               	return	
-  6661  001E54                     __end_ofi2_motor_forward1:
+  6661  001E54                     __end_ofi2_motor_forward2:
   6662                           	opt stack 0
   6663                           pclatu	equ	0xFFB
   6664                           pclath	equ	0xFFA
@@ -6802,7 +6802,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6786 ;;		i2_PWM_DutyCycle1
   6787 ;;		i2_PWM_DutyCycle2
   6788 ;;		i2_motor_Backforward2
-  6789 ;;		i2_motor_forward2
+  6789 ;;		i2_motor_forward1
   6790 ;; This function is called by:
   6791 ;;		_TMRO_USART
   6792 ;; This function uses a non-reentrant model
@@ -6814,10 +6814,10 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6798  001D9C                     i2_left:
   6799                           	opt stack 20
   6800                           
-  6801                           ;cny70.c: 111: motor_forward2();
+  6801                           ;cny70.c: 111: motor_forward1();
   6802                           
   6803                           ;incstack = 0
-  6804  001D9C  EC2D  F00F         	call	i2_motor_forward2	;wreg free
+  6804  001D9C  EC2D  F00F         	call	i2_motor_forward1	;wreg free
   6805                           
   6806                           ;cny70.c: 112: motor_Backforward2();
   6807  001DA0  EC30  F00F         	call	i2_motor_Backforward2	;wreg free
@@ -6860,9 +6860,9 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6844                           fsr2l	equ	0xFD9
   6845                           status	equ	0xFD8
   6846                           
-  6847 ;; *************** function i2_motor_forward2 *****************
+  6847 ;; *************** function i2_motor_forward1 *****************
   6848 ;; Defined at:
-  6849 ;;		line 29 in file "motor.c"
+  6849 ;;		line 11 in file "motor.c"
   6850 ;; Parameters:    Size  Location     Type
   6851 ;;		None
   6852 ;; Auto vars:     Size  Location     Type
@@ -6892,20 +6892,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 59893
   6876                           	psect	text44
   6877  001E5A                     __ptext44:
   6878                           	opt stack 0
-  6879  001E5A                     i2_motor_forward2:
+  6879  001E5A                     i2_motor_forward1:
   6880                           	opt stack 22
   6881                           
-  6882                           ;motor.c: 32: PORTDbits.RD2 = 1;
+  6882                           ;motor.c: 13: PORTDbits.RD7 = 1;
   6883                           
   6884                           ;incstack = 0
-  6885  001E5A  8483               	bsf	3971,2,c	;volatile
+  6885  001E5A  8E83               	bsf	3971,7,c	;volatile
   6886                           
-  6887                           ;motor.c: 33: PORTDbits.RD3 = 0;
-  6888  001E5C  9683               	bcf	3971,3,c	;volatile
+  6887                           ;motor.c: 14: PORTDbits.RD4 = 0;
+  6888  001E5C  9883               	bcf	3971,4,c	;volatile
   6889                           
-  6890                           ;motor.c: 35: return;
+  6890                           ;motor.c: 17: return;
   6891  001E5E  0012               	return	
-  6892  001E60                     __end_ofi2_motor_forward2:
+  6892  001E60                     __end_ofi2_motor_forward1:
   6893                           	opt stack 0
   6894                           pclatu	equ	0xFFB
   6895                           pclath	equ	0xFFA
@@ -8573,9 +8573,9 @@ Call Graph Tables:
                      _PWM_DutyCycle1
                      _PWM_DutyCycle2
                  _motor_Backforward1
-                     _motor_forward1
+                     _motor_forward2
  ---------------------------------------------------------------------------------
- (3) _motor_forward1                                       0     0      0       0
+ (3) _motor_forward2                                       0     0      0       0
  ---------------------------------------------------------------------------------
  (3) _motor_Backforward1                                   0     0      0       0
  ---------------------------------------------------------------------------------
@@ -8583,9 +8583,9 @@ Call Graph Tables:
                      _PWM_DutyCycle1
                      _PWM_DutyCycle2
                  _motor_Backforward2
-                     _motor_forward2
+                     _motor_forward1
  ---------------------------------------------------------------------------------
- (3) _motor_forward2                                       0     0      0       0
+ (3) _motor_forward1                                       0     0      0       0
  ---------------------------------------------------------------------------------
  (3) _motor_Backforward2                                   0     0      0       0
  ---------------------------------------------------------------------------------
@@ -8651,9 +8651,9 @@ Call Graph Tables:
                    i2_PWM_DutyCycle1
                    i2_PWM_DutyCycle2
                i2_motor_Backforward1
-                   i2_motor_forward1
+                   i2_motor_forward2
  ---------------------------------------------------------------------------------
- (9) i2_motor_forward1                                     0     0      0       0
+ (9) i2_motor_forward2                                     0     0      0       0
  ---------------------------------------------------------------------------------
  (9) i2_motor_Backforward1                                 0     0      0       0
  ---------------------------------------------------------------------------------
@@ -8661,9 +8661,9 @@ Call Graph Tables:
                    i2_PWM_DutyCycle1
                    i2_PWM_DutyCycle2
                i2_motor_Backforward2
-                   i2_motor_forward2
+                   i2_motor_forward1
  ---------------------------------------------------------------------------------
- (9) i2_motor_forward2                                     0     0      0       0
+ (9) i2_motor_forward1                                     0     0      0       0
  ---------------------------------------------------------------------------------
  (9) i2_motor_Backforward2                                 0     0      0       0
  ---------------------------------------------------------------------------------
@@ -8817,7 +8817,7 @@ Call Graph Tables:
            ___lbtoft
              ___ftpack
          _motor_Backforward2
-         _motor_forward2
+         _motor_forward1
        _right
          _PWM_DutyCycle1
            _SetDCPWM1
@@ -8850,7 +8850,7 @@ Call Graph Tables:
            ___lbtoft
              ___ftpack
          _motor_Backforward1
-         _motor_forward1
+         _motor_forward2
      _putcBluetoothInt
        _UART1_Init
          _OpenUSART
@@ -8978,7 +8978,7 @@ Call Graph Tables:
          ___lbtoft
            ___ftpack
        _motor_Backforward2
-       _motor_forward2
+       _motor_forward1
      _right
        _PWM_DutyCycle1
          _SetDCPWM1
@@ -9011,7 +9011,7 @@ Call Graph Tables:
          ___lbtoft
            ___ftpack
        _motor_Backforward1
-       _motor_forward1
+       _motor_forward2
 
  _TMRO_USART (ROOT)
    _ReadUSART
@@ -9079,7 +9079,7 @@ Call Graph Tables:
        i2___lbtoft
          i2___ftpack
      i2_motor_Backforward2
-     i2_motor_forward2
+     i2_motor_forward1
    i2_right
      i2_PWM_DutyCycle1
        i2_SetDCPWM1
@@ -9112,7 +9112,7 @@ Call Graph Tables:
        i2___lbtoft
          i2___ftpack
      i2_motor_Backforward1
-     i2_motor_forward1
+     i2_motor_forward2
 
  Address spaces:
 Name               Size   Autos  Total    Cost      Usage
@@ -9146,7 +9146,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V1.33 build 59893 
-Symbol Table                                                                                   Wed Oct 11 12:21:31 2017
+Symbol Table                                                                                   Thu Oct 12 17:49:18 2017
 
                ??_motor_forward 00AC                               _i 0048                               _j 0058  
               ??_motor_forward1 00AC                ??_motor_forward2 00AC         __size_of_PWM_DutyCycle1 007C  
@@ -9310,8 +9310,8 @@ Symbol Table                                                                    
                 __pintcode_body 0EE8            __size_ofi2_SetDCPWM1 003A            __size_ofi2_SetDCPWM2 003A  
           end_of_initialization 1A32                     _TramaTablet 0100       __size_of_putcBluetoothInt 0086  
                 ?i2_go_straight 0001                         int_func 0EE8              __end_ofi2___ftpack 14A0  
-            __end_ofi2___lbtoft 1D0C       i2PWM_DutyCycle1@DutyCycle 002F                i2_motor_forward1 1E4E  
-              i2_motor_forward2 1E5A                       _RCSTAbits 000FAB      __end_of_Inicializa_Driveby 1198  
+            __end_ofi2___lbtoft 1D0C       i2PWM_DutyCycle1@DutyCycle 002F                i2_motor_forward1 1E5A  
+              i2_motor_forward2 1E4E                       _RCSTAbits 000FAB      __end_of_Inicializa_Driveby 1198  
                        postdec1 000FE5                         postdec2 000FDD                         postinc0 000FEE  
                        postinc1 000FE6                         postinc2 000FDE                      ??_putcTxU1 00AD  
                     _num_med_hi 005A       i2PWM_DutyCycle2@DutyCycle 002F                       _PORTAbits 000F80  
@@ -9336,7 +9336,7 @@ Symbol Table                                                                    
              __size_of_Pause_ms 0046                     __pdataBANK0 00E4                __CFG_LPT1OSC$OFF 000000  
                 _num_med_medium 005C               __size_of___ftpack 010A               __size_of___lbtoft 0032  
                    __pbssCOMRAM 0042                 ??_getCNY70Value 00E1                      ?_ReadUSART 0001  
-                _motor_forward1 1E36                  _motor_forward2 1E42                        ?_BT_Init 0001  
+                _motor_forward1 1E42                  _motor_forward2 1E36                        ?_BT_Init 0001  
                  __pcstackBANK0 00AC                      ?_SetDCPWM1 00AC                      ?_SetDCPWM2 00AC  
            __end_of__stringdata 086A                _putcBluetoothInt 15B2                        ?i2_right 0001  
                     ?_OpenUSART 00AC                     sprintf@_val 00C4                     sprintf@flag 00C2  
@@ -9345,9 +9345,9 @@ Symbol Table                                                                    
                   ??_WriteUSART 00AC            _SendBlueToothCommand 1D2A                       __pintcode 0008  
                       ?___ftmul 00B8                        ?___fttol 00C7                        ?___lwdiv 00AC  
                       ?___lwmod 00B3               putcTxU1@character 00AD               __size_of_putcTxU1 0012  
-                     _contador2 0057          __end_of_motor_forward1 1E3C          __end_of_motor_forward2 1E48  
-                   __smallconst 0800       SendBlueToothCommand@total 00B8        __end_ofi2_motor_forward1 1E54  
-      __end_ofi2_motor_forward2 1E60                    _TamanhoTrama 0046                ___lwdiv@quotient 00B0  
+                     _contador2 0057          __end_of_motor_forward1 1E48          __end_of_motor_forward2 1E3C  
+                   __smallconst 0800       SendBlueToothCommand@total 00B8        __end_ofi2_motor_forward1 1E60  
+      __end_ofi2_motor_forward2 1E54                    _TamanhoTrama 0046                ___lwdiv@quotient 00B0  
                       ?_sprintf 00B8                     ??i2___ftmul 0013                     ??i2___fttol 0020  
                 __size_of_right 0016              __end_of_WriteUSART 1DDA                     ??_PWM_init1 00AD  
                    ??_PWM_init2 00AF    PWM_DutyCycle1@percentageDuty 00DC          __size_of_motor_forward 000A  

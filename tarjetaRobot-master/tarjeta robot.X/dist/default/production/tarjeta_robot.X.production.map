@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.33\dat\en_msgs.txt -cs \
   -h+dist/default/production\tarjeta_robot.X.production.sym \
   --cmf=dist/default/production\tarjeta_robot.X.production.cmf -z -Q18F4550 \
-  -oC:\Users\MCC\AppData\Local\Temp\s4u8.6 \
+  -oC:\Users\MCC\AppData\Local\Temp\s53k.6 \
   -Mdist/default/production/tarjeta_robot.X.production.map -E1 -ver=XC8 \
   -ASTACK=0128h-07ffh -pstack=STACK -ACODE=00h-07FFFh -ACONST=00h-07FFFh \
   -ASMALLCONST=0800h-08FFhx120 -AMEDIUMCONST=0800h-07FFFh -ACOMRAM=01h-05Fh \
@@ -22,7 +22,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
-  C:\Users\MCC\AppData\Local\Temp\s4u8.obj \
+  C:\Users\MCC\AppData\Local\Temp\s53k.obj \
   dist/default/production\tarjeta_robot.X.production.obj 
 
 Object code version is 3.11
@@ -35,7 +35,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+C:\Users\MCC\AppData\Local\Temp\s53k.obj
                 end_init                             18       18        4        4       0
                 reset_vec                             0        0        4        0       0
                 idloc                            200000   200000        8   200000       0
@@ -750,8 +750,8 @@ __end_of_main                   text0        00152A
 __end_of_motor_Backforward1     text24       001E42
 __end_of_motor_Backforward2     text27       001E4E
 __end_of_motor_forward          text29       001E2C
-__end_of_motor_forward1         text23       001E3C
-__end_of_motor_forward2         text26       001E48
+__end_of_motor_forward1         text26       001E48
+__end_of_motor_forward2         text23       001E3C
 __end_of_putSTRINGU1            text8        0013F8
 __end_of_putcBluetoothInt       text14       001638
 __end_of_putcBluetoothString    text13       0015B2
@@ -771,8 +771,8 @@ __end_ofi2_left                 text43       001DB2
 __end_ofi2_motor_Backforward1   text42       001E5A
 __end_ofi2_motor_Backforward2   text45       001E66
 __end_ofi2_motor_forward        text47       001E36
-__end_ofi2_motor_forward1       text41       001E54
-__end_ofi2_motor_forward2       text44       001E60
+__end_ofi2_motor_forward1       text44       001E60
+__end_ofi2_motor_forward2       text41       001E54
 __end_ofi2_right                text40       001D9C
 __initialization                cinit        0019D6
 __mediumconst                   mediumconst  000000
@@ -924,8 +924,8 @@ _main                           text0        0014A0
 _motor_Backforward1             text24       001E3C
 _motor_Backforward2             text27       001E48
 _motor_forward                  text29       001E22
-_motor_forward1                 text23       001E36
-_motor_forward2                 text26       001E42
+_motor_forward1                 text26       001E42
+_motor_forward2                 text23       001E36
 _num_med_hi                     bssCOMRAM    00005A
 _num_med_low                    bssCOMRAM    00005B
 _num_med_medium                 bssCOMRAM    00005C
@@ -975,8 +975,8 @@ i2_left                         text43       001D9C
 i2_motor_Backforward1           text42       001E54
 i2_motor_Backforward2           text45       001E60
 i2_motor_forward                text47       001E2C
-i2_motor_forward1               text41       001E4E
-i2_motor_forward2               text44       001E5A
+i2_motor_forward1               text44       001E5A
+i2_motor_forward2               text41       001E4E
 i2_right                        text40       001D86
 int_func                        intcode_body 000EE8
 intlevel0                       text         000000
@@ -1751,15 +1751,15 @@ Total ram usage:        0 bytes
 		_PWM_DutyCycle1
 		_PWM_DutyCycle2
 		_motor_Backforward1
-		_motor_forward1
+		_motor_forward2
  This function is called by:
 		_getCNY70Value
  This function uses a non-reentrant model
 
 
- *************** function _motor_forward1 *****************
+ *************** function _motor_forward2 *****************
  Defined at:
-		line 11 in file "motor.c"
+		line 29 in file "motor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1844,15 +1844,15 @@ Total ram usage:        0 bytes
 		_PWM_DutyCycle1
 		_PWM_DutyCycle2
 		_motor_Backforward2
-		_motor_forward2
+		_motor_forward1
  This function is called by:
 		_getCNY70Value
  This function uses a non-reentrant model
 
 
- *************** function _motor_forward2 *****************
+ *************** function _motor_forward1 *****************
  Defined at:
-		line 29 in file "motor.c"
+		line 11 in file "motor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2338,15 +2338,15 @@ Total ram usage:        0 bytes
 		i2_PWM_DutyCycle1
 		i2_PWM_DutyCycle2
 		i2_motor_Backforward1
-		i2_motor_forward1
+		i2_motor_forward2
  This function is called by:
 		_TMRO_USART
  This function uses a non-reentrant model
 
 
- *************** function i2_motor_forward1 *****************
+ *************** function i2_motor_forward2 *****************
  Defined at:
-		line 11 in file "motor.c"
+		line 29 in file "motor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2429,15 +2429,15 @@ Total ram usage:        0 bytes
 		i2_PWM_DutyCycle1
 		i2_PWM_DutyCycle2
 		i2_motor_Backforward2
-		i2_motor_forward2
+		i2_motor_forward1
  This function is called by:
 		_TMRO_USART
  This function uses a non-reentrant model
 
 
- *************** function i2_motor_forward2 *****************
+ *************** function i2_motor_forward1 *****************
  Defined at:
-		line 29 in file "motor.c"
+		line 11 in file "motor.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2906,8 +2906,8 @@ motor.c
 		_motor_Backforw		CODE           	1E3C	0000	6
 		_motor_Backforw		CODE           	1E48	0000	6
 		_motor_forward 		CODE           	1E22	0000	10
-		_motor_forward1		CODE           	1E36	0000	6
-		_motor_forward2		CODE           	1E42	0000	6
+		_motor_forward1		CODE           	1E42	0000	6
+		_motor_forward2		CODE           	1E36	0000	6
 
 motor.c estimated size: 34
 
@@ -2930,8 +2930,8 @@ shared
 		i2_PWM_DutyCycl		CODE           	189E	0000	106
 		i2___fttol     		CODE           	1198	0000	212
 		_dpowers       		SMALLCONST     	0801	0000	10
-		i2_motor_forwar		CODE           	1E4E	0000	6
 		i2_motor_forwar		CODE           	1E5A	0000	6
+		i2_motor_forwar		CODE           	1E4E	0000	6
 		i2___ftmul     		CODE           	0FDC	0000	228
 		i2_SetDCPWM1   		CODE           	1C30	0000	58
 		i2_SetDCPWM2   		CODE           	1BF6	0000	58

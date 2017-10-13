@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+$C:\Users\MCC\AppData\Local\Temp\s53k.obj
 end_init CODE 0 18 18 4 1
 reset_vec CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
@@ -530,54 +530,54 @@ $dist/default/production\tarjeta_robot.X.production.obj
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Retardos.c":20 19C4 text10 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Retardos.c":24 19D2 text10 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\Retardos.c":20 19D4 text10 CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3319 19D6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3321 19D6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3324 19D6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3476 19D6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3477 19DA cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3478 19DC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3479 19DC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3480 19DE cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3481 19E0 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3484 19E2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3485 19E6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3486 19E8 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3487 19E8 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3488 19EA cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3489 19EC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3492 19EE cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3493 19F2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3494 19F4 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3495 19F4 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3496 19F6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3497 19F8 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3502 19FA cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3503 19FC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3504 19FE cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3505 1A00 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3506 1A02 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3507 1A04 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3508 1A06 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3509 1A0A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3510 1A0E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3511 1A0E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3512 1A10 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3513 1A14 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3514 1A16 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3515 1A18 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3519 1A1A cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3520 1A1C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3521 1A1E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3522 1A20 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3523 1A22 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3524 1A24 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3525 1A26 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3526 1A28 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3527 1A2C cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3528 1A2E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3534 1A32 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3535 1A32 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s4u8.":3536 1A34 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3319 19D6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3321 19D6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3324 19D6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3476 19D6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3477 19DA cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3478 19DC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3479 19DC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3480 19DE cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3481 19E0 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3484 19E2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3485 19E6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3486 19E8 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3487 19E8 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3488 19EA cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3489 19EC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3492 19EE cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3493 19F2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3494 19F4 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3495 19F4 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3496 19F6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3497 19F8 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3502 19FA cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3503 19FC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3504 19FE cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3505 1A00 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3506 1A02 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3507 1A04 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3508 1A06 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3509 1A0A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3510 1A0E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3511 1A0E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3512 1A10 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3513 1A14 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3514 1A16 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3515 1A18 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3519 1A1A cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3520 1A1C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3521 1A1E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3522 1A20 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3523 1A22 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3524 1A24 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3525 1A26 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3526 1A28 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3527 1A2C cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3528 1A2E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3534 1A32 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3535 1A32 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s53k.":3536 1A34 cinit CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\lwmod.c":8 1A38 text16 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\lwmod.c":13 1A38 text16 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\lwmod.c":14 1A42 text16 CODE
@@ -745,34 +745,34 @@ $dist/default/production\tarjeta_robot.X.production.obj
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":51 1E30 text47 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":52 1E32 text47 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":55 1E34 text47 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":11 1E36 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":13 1E36 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":14 1E38 text23 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":18 1E3A text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":29 1E36 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":32 1E36 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":33 1E38 text23 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":36 1E3A text23 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":20 1E3C text24 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":22 1E3C text24 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":23 1E3E text24 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":27 1E40 text24 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":29 1E42 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":32 1E42 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":33 1E44 text26 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":36 1E46 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":11 1E42 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":13 1E42 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":14 1E44 text26 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":18 1E46 text26 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":38 1E48 text27 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":41 1E48 text27 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":42 1E4A text27 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":45 1E4C text27 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":11 1E4E text41 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":13 1E4E text41 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":14 1E50 text41 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":18 1E52 text41 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":29 1E4E text41 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":32 1E4E text41 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":33 1E50 text41 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":36 1E52 text41 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":20 1E54 text42 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":22 1E54 text42 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":23 1E56 text42 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":27 1E58 text42 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":29 1E5A text44 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":32 1E5A text44 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":33 1E5C text44 CODE
-"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":36 1E5E text44 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":11 1E5A text44 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":13 1E5A text44 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":14 1E5C text44 CODE
+"C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":18 1E5E text44 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":38 1E60 text45 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":41 1E60 text45 CODE
 "C:\Users\MCC\Documents\MPLAB X IDE\Mplab x\tarjetaRobot-master\tarjetaRobot-master\tarjeta robot.X\motor.c":42 1E62 text45 CODE
@@ -820,10 +820,10 @@ Pause_seg@i B2 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.pro
 Pause_ms@i AF 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 __end_ofi2___lbtoft 1D0C 0 CODE 0 text51 dist/default/production\tarjeta_robot.X.production.obj
 _main 14A0 0 CODE 0 text0 dist/default/production\tarjeta_robot.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s53k.obj
 _left 1D70 0 CODE 0 text25 dist/default/production\tarjeta_robot.X.production.obj
 SendBlueToothCommand@command B6 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
-start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+start 18 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s53k.obj
 putSTRINGU1@dato AE 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 i2___ftpack@exp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 __size_of_TMRO_USART 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
@@ -967,7 +967,7 @@ __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.o
 i2___ftmul@sign 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 i2PWM_DutyCycle2@percentageDuty 31 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 _ComanTFlag 4C 0 COMRAM 1 bssCOMRAM dist/default/production\tarjeta_robot.X.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s53k.obj
 sprintf@sp B8 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 i2___ftpack@sign 5 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
@@ -977,7 +977,7 @@ __pcstackBANK0 AC 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.
 i2_left 1D9C 0 CODE 0 text43 dist/default/production\tarjeta_robot.X.production.obj
 __Htemp 0 0 COMRAM 1 temp dist/default/production\tarjeta_robot.X.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\tarjeta_robot.X.production.obj
-stacklo 128 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+stacklo 128 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\tarjeta_robot.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\tarjeta_robot.X.production.obj
 _packet 5D 0 COMRAM 1 bssCOMRAM dist/default/production\tarjeta_robot.X.production.obj
@@ -993,7 +993,7 @@ _clrBufferUSART 1BB2 0 CODE 0 text38 dist/default/production\tarjeta_robot.X.pro
 __Htext 0 0 ABS 0 text dist/default/production\tarjeta_robot.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\tarjeta_robot.X.production.obj
 __CFG_CCP2MX$ON 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-_motor_forward2 1E42 0 CODE 0 text26 dist/default/production\tarjeta_robot.X.production.obj
+_motor_forward2 1E36 0 CODE 0 text23 dist/default/production\tarjeta_robot.X.production.obj
 __size_of_motor_forward1 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __size_of_motor_forward2 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\tarjeta_robot.X.production.obj
@@ -1003,8 +1003,8 @@ _PWM_DutyCycle1 1734 0 CODE 0 text32 dist/default/production\tarjeta_robot.X.pro
 ___ftmul@sign C6 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 end_of_initialization 1A32 0 CODE 0 cinit dist/default/production\tarjeta_robot.X.production.obj
 OpenUSART@spbrg AC 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
-__end_ofi2_motor_forward1 1E54 0 CODE 0 text41 dist/default/production\tarjeta_robot.X.production.obj
-__end_ofi2_motor_forward2 1E60 0 CODE 0 text44 dist/default/production\tarjeta_robot.X.production.obj
+__end_ofi2_motor_forward1 1E60 0 CODE 0 text44 dist/default/production\tarjeta_robot.X.production.obj
+__end_ofi2_motor_forward2 1E54 0 CODE 0 text41 dist/default/production\tarjeta_robot.X.production.obj
 i2___fttol@f1 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 i2PWM_DutyCycle2@DC 32 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 __size_of_SendBlueToothCommand 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
@@ -1067,8 +1067,8 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\tarjeta_robot.X.production.obj
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\tarjeta_robot.X.production.obj
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\tarjeta_robot.X.production.obj
 i2_motor_forward 1E2C 0 CODE 0 text47 dist/default/production\tarjeta_robot.X.production.obj
-i2_motor_forward1 1E4E 0 CODE 0 text41 dist/default/production\tarjeta_robot.X.production.obj
-i2_motor_forward2 1E5A 0 CODE 0 text44 dist/default/production\tarjeta_robot.X.production.obj
+i2_motor_forward1 1E5A 0 CODE 0 text44 dist/default/production\tarjeta_robot.X.production.obj
+i2_motor_forward2 1E4E 0 CODE 0 text41 dist/default/production\tarjeta_robot.X.production.obj
 i2___ftmul@f2 10 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 _num_med_hi 5A 0 COMRAM 1 bssCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 __Htext0 0 0 ABS 0 text0 dist/default/production\tarjeta_robot.X.production.obj
@@ -1197,8 +1197,8 @@ ___ftmul A3C 0 CODE 0 text35 dist/default/production\tarjeta_robot.X.production.
 __Lcinit 0 0 ABS 0 cinit dist/default/production\tarjeta_robot.X.production.obj
 __pcinit 19D6 0 CODE 0 cinit dist/default/production\tarjeta_robot.X.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s4u8.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s53k.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s53k.obj
 ___lwdiv 17B0 0 CODE 0 text17 dist/default/production\tarjeta_robot.X.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 i2___ftpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
@@ -1335,7 +1335,7 @@ _getCNY70Value DF4 0 CODE 0 text21 dist/default/production\tarjeta_robot.X.produ
 __ptext15 86C 0 CODE 0 text15 dist/default/production\tarjeta_robot.X.production.obj
 __ptext34 BA0 0 CODE 0 text34 dist/default/production\tarjeta_robot.X.production.obj
 __ptext53 FDC 0 CODE 0 text53 dist/default/production\tarjeta_robot.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __Htext54 0 0 ABS 0 text54 dist/default/production\tarjeta_robot.X.production.obj
 __Htext35 0 0 ABS 0 text35 dist/default/production\tarjeta_robot.X.production.obj
 __Htext16 0 0 ABS 0 text16 dist/default/production\tarjeta_robot.X.production.obj
@@ -1403,7 +1403,7 @@ __Ltext29 0 0 ABS 0 text29 dist/default/production\tarjeta_robot.X.production.ob
 __ptext19 1D44 0 CODE 0 text19 dist/default/production\tarjeta_robot.X.production.obj
 __ptext38 1BB2 0 CODE 0 text38 dist/default/production\tarjeta_robot.X.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __ptext29 1E22 0 CODE 0 text29 dist/default/production\tarjeta_robot.X.production.obj
 __ptext48 189E 0 CODE 0 text48 dist/default/production\tarjeta_robot.X.production.obj
 __Htext49 0 0 ABS 0 text49 dist/default/production\tarjeta_robot.X.production.obj
@@ -1435,7 +1435,7 @@ __end_of_OpenPWM2 1BB2 0 CODE 0 text3 dist/default/production\tarjeta_robot.X.pr
 __size_ofi2_motor_Backforward2 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __end_of_BT_Init 133A 0 CODE 0 text6 dist/default/production\tarjeta_robot.X.production.obj
 __CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __size_ofi2_motor_forward1 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 SetDCPWM1@DCycle B0 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 __size_of_putcBluetoothString 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
@@ -1449,25 +1449,25 @@ __CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __end_of_putSTRINGU1 13F8 0 CODE 0 text8 dist/default/production\tarjeta_robot.X.production.obj
 __stringdata 80B 0 SMALLCONST 0 smallconst dist/default/production\tarjeta_robot.X.production.obj
 __end_ofi2_motor_Backforward2 1E66 0 CODE 0 text45 dist/default/production\tarjeta_robot.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s4u8.obj
-__end_of_motor_forward1 1E3C 0 CODE 0 text23 dist/default/production\tarjeta_robot.X.production.obj
-__end_of_motor_forward2 1E48 0 CODE 0 text26 dist/default/production\tarjeta_robot.X.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s53k.obj
+__end_of_motor_forward1 1E48 0 CODE 0 text26 dist/default/production\tarjeta_robot.X.production.obj
+__end_of_motor_forward2 1E3C 0 CODE 0 text23 dist/default/production\tarjeta_robot.X.production.obj
 __size_ofi2___fttol 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\tarjeta_robot.X.production.obj
 __size_ofi2___ftmul 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\tarjeta_robot.X.production.obj
 __pintcode_body EE8 0 CODE 0 intcode_body dist/default/production\tarjeta_robot.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s53k.obj
 i2_go_straight 1E10 0 CODE 0 text46 dist/default/production\tarjeta_robot.X.production.obj
-intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __size_ofi2___ftpack 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s53k.obj
 i2PWM_DutyCycle1@DutyCycle 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\tarjeta_robot.X.production.obj
 _Comando_Tablet 1828 0 CODE 0 text12 dist/default/production\tarjeta_robot.X.production.obj
 i2_PWM_DutyCycle1 1908 0 CODE 0 text50 dist/default/production\tarjeta_robot.X.production.obj
 i2_PWM_DutyCycle2 189E 0 CODE 0 text48 dist/default/production\tarjeta_robot.X.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s4u8.obj
+intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s53k.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __size_of_PWM_DutyCycle1 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 __size_of_PWM_DutyCycle2 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
@@ -1502,7 +1502,7 @@ __size_of_sprintf 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production
 __initialization 19D6 0 CODE 0 cinit dist/default/production\tarjeta_robot.X.production.obj
 PWM_DutyCycle1@DC DD 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 __size_ofi2_left 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
-_motor_forward1 1E36 0 CODE 0 text23 dist/default/production\tarjeta_robot.X.production.obj
+_motor_forward1 1E42 0 CODE 0 text26 dist/default/production\tarjeta_robot.X.production.obj
 __CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\tarjeta_robot.X.production.obj
 PWM_DutyCycle1@percentageDuty DC 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj
 ___lwmod@dividend B3 0 BANK0 1 cstackBANK0 dist/default/production\tarjeta_robot.X.production.obj

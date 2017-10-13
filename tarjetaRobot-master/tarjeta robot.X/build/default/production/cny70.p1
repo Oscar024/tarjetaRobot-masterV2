@@ -20,7 +20,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "53
 [v _right `(v ~T0 @X0 0 ef ]
 "102 cny70.c
-[v _motor_forward1 `(i ~T0 @X0 0 ef ]
+[v _motor_forward2 `(i ~T0 @X0 0 ef ]
 "103
 [v _motor_Backforward1 `(i ~T0 @X0 0 ef ]
 "42 pwm.h
@@ -28,7 +28,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "44
 [v _PWM_DutyCycle2 `(v ~T0 @X0 0 ef1`uc ]
 "111 cny70.c
-[v _motor_forward2 `(i ~T0 @X0 0 ef ]
+[v _motor_forward1 `(i ~T0 @X0 0 ef ]
 "112
 [v _motor_Backforward2 `(i ~T0 @X0 0 ef ]
 "65 Funciones_Db.h
@@ -5044,9 +5044,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;cny70.c: 101: {
 [e :U _right ]
 [f ]
-[; ;cny70.c: 102: motor_forward1();
+[; ;cny70.c: 102: motor_forward2();
 "102
-[e ( _motor_forward1 ..  ]
+[e ( _motor_forward2 ..  ]
 [; ;cny70.c: 103: motor_Backforward1();
 "103
 [e ( _motor_Backforward1 ..  ]
@@ -5071,9 +5071,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;cny70.c: 110: {
 [e :U _left ]
 [f ]
-[; ;cny70.c: 111: motor_forward2();
+[; ;cny70.c: 111: motor_forward1();
 "111
-[e ( _motor_forward2 ..  ]
+[e ( _motor_forward1 ..  ]
 [; ;cny70.c: 112: motor_Backforward2();
 "112
 [e ( _motor_Backforward2 ..  ]
